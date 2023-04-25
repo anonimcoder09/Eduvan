@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sf2kghs&3^u-ju(xp*-_nvo=4y(90^i^#pj@tfls&n&0nhhb$%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -64,7 +64,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-    "http://127.0.0.1:5500",
+    '*',
 )
 
 ROOT_URLCONF = 'config.urls'
