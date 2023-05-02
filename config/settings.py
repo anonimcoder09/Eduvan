@@ -65,7 +65,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-    '*',
+    'http://127.0.0.1:5500',
 )
 
 ROOT_URLCONF = 'config.urls'
